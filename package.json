@@ -1,0 +1,15 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "Retrieve Names From Tornado",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "setup": "pip install pyinstaller && py -m pip install \"Tornado\" && npm install --save-dev electron"
+  },
+  "author": "Ilya P",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^15.1.0"
+  }
+}
